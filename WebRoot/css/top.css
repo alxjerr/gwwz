@@ -1,0 +1,8 @@
+@CHARSET "UTF-8";
+a:link {color: #6666CC} /* 未被访问的链接 蓝色 */
+a:visited {color: #6666CC} /* 已被访问过的链接 蓝色 */
+a:hover {color: #FF0000} /* 鼠标悬浮在上的链接 红色 */
+a:active {color: #FF0000} /* 鼠标点中激活链接 红色 */
+a{text-decoration:none}
+
+
