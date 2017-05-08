@@ -21,16 +21,13 @@
                                                                                                     size="3">商品类型管理</font></strong>
             </td>
             <td height="36">
-                <div align="right">
-                    <input type="text" name="key" id="key" style="height: 24px;width: 250px;padding-top: 2px;padding-left:20px;background-image: url(../image/icon/key_search.gif);background-repeat: no-repeat"/>
+                <div align="right"><input type="text" name="key" id="key"
+                                          style="height: 24px;width: 250px;padding-top: 2px;padding-left:20px;background-image: url(../image/icon/key_search.gif);background-repeat: no-repeat"/>
                 </div>
             </td>
+            <td><input type="button" value="查询" style="height: 26px;width: 70px;padding-top: 2px"
+                       onClick="return searchGoodsType()"/></td>
             <td>
-                <input type="button" value="查询" style="height: 26px;width: 70px;padding-top: 2px" onClick="return searchGoodsType()"/>
-            </td>
-            <td>
-                <input type="submit" value="删除类型" style="height: 26px;width: 70px;padding-top: 2px" onClick="return deletMoreGoodsType()"/>
-            </td>
         </tr>
         <tr>
             <td height="40" colspan="5">
